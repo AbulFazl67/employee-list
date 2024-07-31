@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .userlist-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 10px 20px 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  .txt h1 {
+    text-align: center; 
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .filters-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 20px;
+  }
+  
+  .filter-country {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; 
+  }
+  
+  .filter-country label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .filter-country input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .filter-country input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .sort-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px; 
+  }
+  
+  .filter-gender {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-gender select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+  
+  .sort-btn button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sort-btn button:hover {
+    background-color: #555;
+  }
+  
+  .tables {
+    overflow-x: auto;
+  }
+
+  .icon-color{
+    color: red;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .tables img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .tables .td-img {
+    padding: 0px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #555;
+  }
+  
